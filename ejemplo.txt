@@ -1,0 +1,39 @@
+#!/bin/bash
+echo "Bienvenido al Sistema"
+
+echo "¿Ya estas registrado? Si --- No"
+read opcion
+
+if [[ ( $opcion == "si" || $opcion == "Si" ) ]]; then
+echo "¿Quien eres?"
+read nombre
+
+        if [[ (     ) ]]; then
+
+        fi
+
+echo "Hola usuario registrado"
+else
+echo "No pudes ingresar :p"
+fi
+
+
+nuebo 
+Modified  #!/bin/bash
+echo "Bienvenido al Sistema"
+
+echo "¿Ya estas registrado? Si --- No"
+read opcion
+
+if [[ ( $opcion == "si" || $opcion == "Si" ) ]]; then
+echo "¿Quien eres?"
+read nombre
+
+        if [[ ( $nombre == "kenneth" ) ]]; then
+                echo"bla bla bla"
+        fi
+
+echo "Hola usuario registrado"
+else
+echo "No pudes ingresar :p"
+fi
